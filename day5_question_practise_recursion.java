@@ -42,10 +42,20 @@ public class day5_question_practise_recursion {
 //   }
 //   return a* print5(a,b-1);
 // }
+static int reverse = 0;
+static void reverse(int num){
+if (num == 0) {
+    return;
+}
+int digit = num % 10;
+reverse = reverse * 10 + digit;
+reverse (num/10); // recurssive call
+}
+
 
    public static void main(String[] args) {
 
-  // Scanner sc = new Scanner(System.in);
+   Scanner sc = new Scanner(System.in);
   // System.out.println("enter first num a");
   // int a =sc.nextInt();
   // System.out.println("enter second num b");
@@ -63,5 +73,20 @@ public class day5_question_practise_recursion {
 //  int  n= sc.nextInt();
 // System.out.println(print5()); // function call 
 
+
+// pallidrome number by recursion
+System.out.println("enter first num a");
+ int num  =sc.nextInt();
+  int orginal = num;
+ reverse(num); /// function call
+
+if (orginal == reverse) {
+    System.out.println("palledrem number");
+}
+else{
+    
+    System.out.println(" not palledrem number");
+
+}
 }
 }
