@@ -3,3 +3,7 @@ desktop.ini
 tempCodeRunnerFile.java
 .vscode
 day5.class
+*.class
+*.log
+*.tmp
+*.cache
