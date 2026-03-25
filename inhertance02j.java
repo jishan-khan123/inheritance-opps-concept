@@ -68,6 +68,7 @@ public class inhertance02j {
         // hr a1 = new hr();
         // a1.salry();
         // System.out.println();
+        
         // a1.bonus();
 
 
