@@ -17,7 +17,7 @@
 // d1.eat();  // parents ka method pront krne ke lie
 // d1.walk(); // child ka method pront krne ke lie        
 
-/*  double inheritance
+ // double inheritance
 class parntsvechile{
     int model;
     String name;
@@ -40,36 +40,36 @@ String color;
 int serial;
 float plat;
 }
-*/
+
 
 // singal inheritance
-// class employee{
-//     void salry(){
-//         System.out.println("salary = 120000");
-//     }
-// }
-// class hr extends employee{
-//     void bonus(){
-//         System.err.println("bonus = 1500");
-//     }
-// }
+class employee{
+    void salry(){
+        System.out.println("salary = 120000");
+    }
+}
+class hr extends employee{
+    void bonus(){
+        System.err.println("bonus = 1500");
+    }
+}
 public class inhertance02j {
 
     public static void main(String[] args) {
       
-        // car a1 = new car();
-        // a1.model = 2025;
-        // a1.miledge = 455544;
-        // a1.ftype = "diesel";
-        // a1.sunroof = true;
-        // a1.display();
+        car a1 = new car();
+        a1.model = 2025;
+        a1.miledge = 455544;
+        a1.ftype = "diesel";
+        a1.sunroof = true;
+        a1.display();
 
-        // singal inheritance
-        // hr a1 = new hr();
-        // a1.salry();
-        // System.out.println();
+        singal inheritance
+        hr a1 = new hr();
+        a1.salry();
+        System.out.println();
         
-        // a1.bonus();
+        a1.bonus();
 
 
 
