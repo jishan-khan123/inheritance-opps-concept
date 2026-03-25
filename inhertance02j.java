@@ -64,7 +64,7 @@ public class inhertance02j {
         a1.sunroof = true;
         a1.display();
 
-        singal inheritance
+        //singal inheritance
         hr a1 = new hr();
         a1.salry();
         System.out.println();
