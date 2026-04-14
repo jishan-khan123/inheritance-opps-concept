@@ -12,7 +12,7 @@ interface gps{
 }
 
  class SmartDevice implements camera,music,gps{
-    public void clickphoto(){
+    public void clickphoto(){ 
         System.out.println("photo clicked");
     }
 
